@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+       <p style = "text-align: center"><marquee> Bello Pizza's <ion-icon name="pizza"></ion-icon> </marquee></p>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="fundo1">
+  <div class="img">
+<img src="/assets/imagem/pizza.jpg" style="text-align: center">
+  </div>
+  
+  <h1 style = "text-align: center"><b> Cardápio </b></h1>
+  
+<p style = "text-align: center"><b>Pizzas </b></p>
+<p style = "text-align: right"><b>BROTO | GRANDE</b></p>
+
+    <b>1- Atum.................... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "atum1()">R$16,00</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "atum2()">R$32,00</ion-button><br>
+    <b>2- Bacon.................. </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "bacon1()">R$15,00</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "bacon2()">R$30,00</ion-button><br>
+    <b>3- Brócolis............... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "brocolis1()">R$16,00</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "brocolis2()">R$32,00</ion-button><br>
+    <b>4- Calabresa............ </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "calabresa1()">R$15,00</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "calabresa2()">R$30,00</ion-button><br>
+    <b>5- Frango Catupiry.. </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "frango1()">R$15,00</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "frango2()">R$30,00</ion-button><br>
+    <b>6- Quatro Queijos... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "queijos1()">R$17,50</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "queijos2()">R$35,00</ion-button><br>
+    <b>7- Escarola.............. </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "escarola1()">R$16,00</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "escarola2()">R$32,00</ion-button><br>
+    <b>8- Lombo................. </b><ion-button style="width: 60px; height: 35px; right: 5px" (click) = "lombo1()">R$16,00</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "lombo2()">R$32,00</ion-button><br>
+    <b>9- Marguerita........... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "marguerita1()">R$15,00</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "marguerita2()">R$30,00</ion-button><br>
+    <b>10- Mussarela.......... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "mussarela1()">R$15,00</ion-button> <ion-button style="width: 60px; height: 35px; right: 5px" (click) = "mussarela2()">R$30,00</ion-button><br>
+
+    <ion-label><b> TOTAL A PAGAR: </b>{{valor.toFixed(2)}} </ion-label>
+
+  </div>
+</ion-content>

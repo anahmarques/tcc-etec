@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+       <p style = "text-align: center"><marquee> Buteco <ion-icon name="beer"></ion-icon></marquee></p><br>
+        
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <img src="assets/imagem/bar.jpg">
+  <div class="fundo1">
+  <h1 style = "text-align: center"> Cardápio </h1>
+  
+
+
+<p style = "text-align: center"><b> Bebidas </b></p>
+
+    <b>1- Litrão.................... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "litrao()">R$9,50</ion-button><br> 
+    <b>2- Pinga (dose).................. </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "pinga()">R$5,00</ion-button><br>
+    <b>3- Caipirinha............... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "caipirinha()">R$15,00</ion-button><br> 
+    <b>4- Corote............ </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "corote()">R$5,00</ion-button><br> 
+    <b>5- C.D.B.. </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "cdb()">R$4,00</ion-button><br> 
+    <b>6- Chopp... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "chopp()">R$7,50</ion-button><br> 
+    <b>7- Campari (dose).............. </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "campari()">R$7,00</ion-button><br> 
+    <b>8- Baianinha................. </b><ion-button style="width: 60px; height: 35px; right: 5px" (click) = "baianinha()">R$5,00</ion-button><br> 
+    <b>9- Tequila (dose) ........... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "tequila()">R$13,00</ion-button><br> 
+    <b>10- Whisky (dose).......... </b><ion-button style="width: 60px; height: 35px; left: 5px" (click) = "whisky()">R$15,00</ion-button><br> 
+
+    <ion-label><b> VALOR TOTAL: </b>{{valor.toFixed(2)}} </ion-label>
+
+  </div>
+</ion-content>
