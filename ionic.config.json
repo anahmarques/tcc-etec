@@ -1,5 +1,7 @@
 {
-  "name": "blankapp",
-  "integrations": {},
+  "name": "tcc3",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
