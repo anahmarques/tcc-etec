@@ -12,7 +12,29 @@
 </ion-header>
 
 <ion-content>
-    <ion-button href="/receitasrapidas " style="--background:  rgb(117, 14, 14)">Receitas Rápidas</ion-button><br>
-    <ion-button href="/receitassaudaveis " style="--background:  rgb(117, 14, 14)">Receitas Saudáveis</ion-button><br>
+    <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-badge routerLink="../receitassaudaveis">
+              <img src="assets/imgreceitas/fit.jpg">
+            </ion-badge>
+          </ion-col>
+
+          <ion-col>
+              <ion-badge routerLink="../receitasrapidas">
+                <img src="assets/imgreceitas/rapidas.jpg">
+              </ion-badge>
+            </ion-col>
+    
+            <ion-row>
+                <ion-col>
+                    <ion-badge routerLink="../doces">
+                      <img src="assets/imgreceitas/doces.jpg">
+                    </ion-badge>
+                  </ion-col>
+              </ion-row>
+            </ion-row>
+            </ion-grid>
+          
     
 </ion-content>
