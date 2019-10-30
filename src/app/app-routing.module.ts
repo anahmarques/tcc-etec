@@ -21,6 +21,8 @@ const routes: Routes = [
   { path: 'atividadefisica', loadChildren: './atividadefisica/atividadefisica.module#AtividadefisicaPageModule' },
   { path: 'corrida', loadChildren: './corrida/corrida.module#CorridaPageModule' },
   { path: 'doces', loadChildren: './doces/doces.module#DocesPageModule' },
+  { path: 'reparos', loadChildren: './reparos/reparos.module#ReparosPageModule' },
+  { path: 'manutencao', loadChildren: './manutencao/manutencao.module#ManutencaoPageModule' },
 
 ];
 
