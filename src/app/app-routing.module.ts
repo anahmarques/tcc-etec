@@ -23,6 +23,8 @@ const routes: Routes = [
   { path: 'doces', loadChildren: './doces/doces.module#DocesPageModule' },
   { path: 'reparos', loadChildren: './reparos/reparos.module#ReparosPageModule' },
   { path: 'manutencao', loadChildren: './manutencao/manutencao.module#ManutencaoPageModule' },
+  { path: 'cozinha', loadChildren: './cozinha/cozinha.module#CozinhaPageModule' },
+  { path: 'banheiro', loadChildren: './banheiro/banheiro.module#BanheiroPageModule' },
 
 ];
 
