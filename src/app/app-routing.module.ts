@@ -28,6 +28,7 @@ const routes: Routes = [
   { path: 'lavanderia', loadChildren: './lavanderia/lavanderia.module#LavanderiaPageModule' },
   { path: 'cdomesticos', loadChildren: './cdomesticos/cdomesticos.module#CdomesticosPageModule' },
   { path: 'domesticos', loadChildren: './domesticos/domesticos.module#DomesticosPageModule' },
+  { path: 'carros', loadChildren: './carros/carros.module#CarrosPageModule' },
 
 ];
 
