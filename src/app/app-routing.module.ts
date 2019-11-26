@@ -29,6 +29,7 @@ const routes: Routes = [
   { path: 'cdomesticos', loadChildren: './cdomesticos/cdomesticos.module#CdomesticosPageModule' },
   { path: 'domesticos', loadChildren: './domesticos/domesticos.module#DomesticosPageModule' },
   { path: 'carros', loadChildren: './carros/carros.module#CarrosPageModule' },
+<<<<<<< HEAD
   { path: 'moto', loadChildren: './moto/moto.module#MotoPageModule' },
   { path: 'jogostabuleiro', loadChildren: './jogostabuleiro/jogostabuleiro.module#JogostabuleiroPageModule' },
   { path: 'jogoscartas', loadChildren: './jogoscartas/jogoscartas.module#JogoscartasPageModule' },
@@ -36,6 +37,8 @@ const routes: Routes = [
   { path: 'magica', loadChildren: './magica/magica.module#MagicaPageModule' },
   { path: 'sertanejo', loadChildren: './sertanejo/sertanejo.module#SertanejoPageModule' },
   { path: 'pagode', loadChildren: './pagode/pagode.module#PagodePageModule' },
+=======
+>>>>>>> e02f3ef0667f623ec7f1bbe11efbee0de92704e9
 
 ];
 
