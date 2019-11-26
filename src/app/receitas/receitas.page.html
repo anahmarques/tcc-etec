@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+      <ion-button href="/home" style="background-color:  rgb(117, 14, 14)">
+        <ion-icon name="undo" style=color:#ffffff></ion-icon>
+      </ion-button>
+      </ion-buttons>
+    <ion-title>
+     <p style=color:#ffffff text-center> Dicas de Receitas </p>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-justify">
+    <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-badge routerLink="../receitassaudaveis">
+              <img src="assets/imgreceitas/fit.jpg">
+            </ion-badge>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+              <ion-badge routerLink="../receitasrapidas">
+                <img src="assets/imgreceitas/rapidas.jpg">
+              </ion-badge>
+            </ion-col>
+        </ion-row>
+            
+              <ion-row>
+                <ion-col>
+                    <ion-badge routerLink="../doces">
+                      <img src="assets/imgreceitas/doces.jpg">
+                    </ion-badge>
+                  </ion-col>
+              </ion-row>
+
+            </ion-grid>   
+</ion-content>

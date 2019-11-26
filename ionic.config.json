@@ -1,0 +1,7 @@
+{
+  "name": "tcc3",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
